@@ -1,0 +1,1 @@
+<textarea cols="6" rows="4" class="form-control deskripsi-capaian-optimal-field" name="deskripsi-capaian-optimal-{{ $data->id }}" id="deskripsi-capaian-optimal-{{ $data->id }}" >{{ $nilai->firstWhere('siswa_id', $data->id)['deskripsi_capaian_tinggi'] ?? null }}</textarea>

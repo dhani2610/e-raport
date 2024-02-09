@@ -1,0 +1,5 @@
+collect([
+  [
+    'abc' => 'abc',
+  ],
+])->each(fn($q) => Abc::create($q));

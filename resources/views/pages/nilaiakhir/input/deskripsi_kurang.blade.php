@@ -1,0 +1,1 @@
+<textarea cols="6" rows="4" class="form-control deskripsi-capaian-kurang-field" name="deskripsi-capaian-kurang-{{ $data->id }}" id="deskripsi-capaian-kurang-{{ $data->id }}" >{{ $nilai->firstWhere('siswa_id', $data->id)['deskripsi_capaian_rendah'] ?? null }}</textarea>
